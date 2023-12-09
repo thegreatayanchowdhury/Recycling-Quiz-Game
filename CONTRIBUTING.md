@@ -1,6 +1,6 @@
 # Contributing to Recycling Quiz Game
 
-Thank you for your interest in contributing to To-Do List Web Application! Contributions from the community are essential for the growth and improvement of the project.
+Thank you for your interest in contributing to Recycling Quiz Game Team! Contributions from the community are essential for the growth and improvement of the project.
 
 ## Getting Started
 
