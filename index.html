@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycling Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="start-container">
+        <h1>Recycling Quiz Game</h1>
+        <h2>Welcome!</h2>
+        <p>Test your knowledge about recycling practices. Enter your details below to start the quiz.</p>
+        <form id="player-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter your age" required>
+            <label for="place">Place:</label>
+            <input type="text" id="place" placeholder="Enter your place" required>
+            <button type="button" id="start-button">Start Quiz</button>
+        </form>
+    </div>
+
+    <div id="quiz-container" style="display: none;">
+        <h2>Recycling Quiz</h2>
+        <div id="question" class="question"></div>
+        <div id="options" class="options"></div>
+        <button id="prev-button">Previous</button>
+        <button id="skip-button">Skip</button>
+        <button id="next-button">Next</button>
+        <div id="result"></div>
+        <p id="attended-count">Attended: 0</p>
+        <div id="timer"></div>
+    </div>
+
+    <div id="congrats-container" style="display: none;">
+        <h1>Congratulations!</h1>
+        <p>Great job, <span id="congrats-name"></span>! You've completed the Recycling Quiz.</p>
+        <p>Your Score: <span id="congrats-score"></span></p>
+        <button id="restart-button">Restart Quiz</button>
+    </div>
+    <footer>
+        <p>&copy; 2023 CODEMINDS ALLIANCE. All rights reserved.</p>
+    </footer>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
