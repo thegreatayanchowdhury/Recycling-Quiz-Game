@@ -58,4 +58,4 @@ Contributions are welcome! Please follow the [Contributing Guidelines](CONTRIBUT
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-**© 2023 CODEMINDS ALLIANCE. All Rights Reserved.**
+**© 2023-24 CODEMINDS ALLIANCE. All Rights Reserved.**
